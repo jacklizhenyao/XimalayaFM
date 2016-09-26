@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<com.lanou.radiostation.view.PullToRefreshView
+    android:id="@+id/frag_dingyueting_tv_recommended_pulltorefreshview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <ListView
+        android:id="@+id/frag_dingyueting_recommended_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="0dp"
+        android:dividerHeight="0dp"
+        android:divider="@null">
+    </ListView>
+</com.lanou.radiostation.view.PullToRefreshView>
+    <LinearLayout
+        android:id="@+id/frag_dingyueting_recommended_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/no_net"
+            />
+        <Button
+            android:id="@+id/frag_dingyueting_recommended_button_refresh"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_frag_dingyueting_recom"
+            android:text="重新加载"
+           android:textSize="10sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

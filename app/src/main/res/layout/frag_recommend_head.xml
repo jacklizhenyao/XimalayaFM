@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/frag_recommend_head_vp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </android.support.v4.view.ViewPager>
+        <LinearLayout
+            android:id="@+id/frag_recommend_head_ll"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            >
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

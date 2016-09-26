@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/bg_album_cover"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="5dp"
+            />
+        <ImageView
+            android:id="@+id/activity_broad_item_iv"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            />
+        <LinearLayout
+            android:layout_toRightOf="@+id/activity_broad_item_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/activity_broad_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京交通广播"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                />
+            <TextView
+                android:id="@+id/activity_broad_item_programname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在直播 : 汽车天下"
+                android:textColor="#ccc"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:id="@+id/activity_broad_item_playcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="128.2万人"
+                android:textSize="10dp"
+                android:textColor="#ccc"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@mipmap/ic_item_playtimes_count"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

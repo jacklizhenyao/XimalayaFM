@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/finding_title_tag"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="给小编留言"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        >
+        <com.lanou.radiostation.view.CircularImage
+            android:id="@+id/particulars_footer_iv"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@+id/particulars_footer_iv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/particulars_footer_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="二喵小姐 : "
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/particulars_footer_tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="二喵小姐 : "
+                android:textSize="13sp"
+                android:layout_marginTop="3dp"
+                android:textColor="#ccc"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

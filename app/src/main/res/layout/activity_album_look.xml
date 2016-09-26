@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+<include layout="@layout/include_title"
+    android:id="@+id/include_title"
+    >
+</include>
+    <View
+        android:layout_below="@+id/include_title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        android:id="@+id/album_look_view"
+        />
+
+    <RadioGroup
+        android:layout_below="@+id/album_look_view"
+        android:id="@+id/albumlook_top_rg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/fire_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+           android:text="最火"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/radiobutton"
+           />
+        <RadioButton
+            android:id="@+id/newest_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="最新"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/radiobutton"
+            />
+        <RadioButton
+            android:id="@+id/classic_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="经典"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/radiobutton"
+ />
+    </RadioGroup>
+    <View
+        android:id="@+id/album_look_view_bottom"
+        android:layout_below="@+id/albumlook_top_rg"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#fff"
+        />
+    <FrameLayout
+        android:id="@+id/main_fl"
+        android:layout_below="@+id/album_look_view_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+   </RelativeLayout>
+
+

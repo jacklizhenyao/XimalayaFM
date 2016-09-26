@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="findTv">#E72F18</color>
+    <color name="white">#fff</color>
+    <color name="red">#f00</color>
+    <color name="gray">#ccc</color>
+    <color name="transparency">#00e7e5e5</color>
+    <color name="noNetColor">#ECEBE7</color>
+    <color name="JU">#FC8A6F</color>
+    <color name="HUI">#CCCCCC</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="selector_item_history_color_pressed">#E8E8E8</color>
+    <color name="selector_item_history_color">#FFFFFFFF</color>
+</resources>

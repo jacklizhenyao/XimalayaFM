@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    >
+<ImageView
+    android:id="@+id/broad_all_iv_item"
+    android:layout_width="0dp"
+    android:layout_height="75dp"
+    android:layout_weight="1"
+    android:layout_marginTop="5dp"
+    />
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_weight="3"
+        >
+       <TextView
+           android:id="@+id/broad_all_tv_item_title"
+           android:layout_width="match_parent"
+           android:layout_height="28dp"
+           android:text="eee"
+           android:textSize="14sp"
+           android:textColor="#000"
+           android:layout_marginTop="5dp"
+           />
+        <TextView
+            android:id="@+id/broad_tv_item_context"
+            android:layout_below="@+id/broad_all_tv_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="dddd"
+            android:textSize="10sp"
+            android:textColor="#000"
+            />
+<RelativeLayout
+    android:layout_below="@+id/broad_tv_item_context"
+    android:layout_width="match_parent"
+    android:layout_height="19dp"
+
+    >
+    <ImageView
+        android:id="@+id/ic_play_item_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@mipmap/ic_item_playtimes_count"
+        />
+<TextView
+    android:id="@+id/broad_tvcount_item"
+    android:layout_toRightOf="@+id/ic_play_item_iv"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="ddd"
+   android:textSize="10dp"
+    />
+</RelativeLayout>
+    </RelativeLayout>
+
+
+<CheckBox
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+   android:button="@null"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="5dp"
+android:background="@drawable/play_pause_selector"
+    />
+</LinearLayout>

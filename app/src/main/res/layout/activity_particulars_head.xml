@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"
+            />
+        <ImageView
+            android:id="@+id/particulars_iv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_subject"
+            android:layout_margin="15dp"
+            />
+        <TextView
+            android:id="@+id/particulars_tv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/particulars_iv_01"
+            android:text="发狗粮 ! 最花式虐狗的10对明星cp"
+            android:layout_marginTop="30dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            />
+        <RelativeLayout
+            android:id="@+id/particulars_rl_01"
+            android:layout_below="@+id/particulars_iv_01"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/particulars_iv_02"
+            android:layout_toLeftOf="@+id/particulars_tv_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_subject_line_left"
+            android:layout_centerVertical="true"
+
+            />
+            <TextView
+                android:id="@+id/particulars_tv_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="简介"
+                android:textColor="#a6a3a3"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                />
+            <ImageView
+                android:id="@+id/particulars_iv_03"
+                android:layout_toRightOf="@+id/particulars_tv_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_subject_line_right"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/particulars_tv_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asddddddd"
+            android:textColor="#a9a6a6"
+            android:layout_below="@+id/particulars_rl_01"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:id="@+id/particulars_tv_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="二喵小姐"
+            android:textSize="10sp"
+            android:layout_marginRight="10dp"
+            android:textColor="#ccc"
+            />
+
+        <ImageView
+            android:id="@+id/particulars_iv_04"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_toLeftOf="@+id/particulars_tv_04"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="2dp"
+            />
+
+        <TextView
+            android:id="@+id/particulars_tv_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="小编 : "
+            android:textSize="12sp"
+            android:textColor="#ccc"
+            android:layout_toLeftOf="@+id/particulars_iv_04"
+            android:layout_marginRight="5dp"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#ccc"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/finding_title_tag"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="听单列表"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:id="@+id/main_fl_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_bottom_rg"
+        ></FrameLayout>
+
+
+
+    <RadioGroup
+        android:id="@+id/main_bottom_rg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#FCFDFE"
+        >
+
+
+        <RadioButton
+            android:id="@+id/main_bottom_rb_find"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_main_button_rb_find"
+            android:text="发现"
+            android:gravity="center_horizontal"
+            android:textColor="#ccc"
+            android:layout_marginTop="3dp"
+            />
+
+        <RadioButton
+            android:id="@+id/main_bottom_rb_take"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_main_button_rb_take"
+            android:text="订阅群"
+            android:gravity="center_horizontal"
+            android:textColor="#ccc"
+            android:padding="2dp"
+            android:layout_marginTop="3dp"
+            />
+
+
+
+
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        />
+<!---->
+
+
+
+        <RadioButton
+            android:id="@+id/main_bottom_rb_down"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_main_button_rb_down"
+            android:text="下载听"
+            android:gravity="center_horizontal"
+            android:textColor="#ccc"
+            android:layout_marginTop="3dp"
+            />
+
+        <RadioButton
+            android:id="@+id/main_bottom_rb_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_main_button_rb_me"
+            android:text="我的"
+            android:gravity="center_horizontal"
+            android:textColor="#ccc"
+            android:layout_marginTop="3dp"
+            />
+
+
+    </RadioGroup>
+
+    <ImageView
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/play_icon_pause"
+        />
+    <com.lanou.radiostation.view.CircularImage
+        android:clickable="true"
+        android:id="@+id/main_play_iv_background"
+        android:layout_width="54dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@mipmap/ic_play_pause"
+        />
+</RelativeLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/attention_head_big_iv"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/attention_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/back_btn_normal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/attention_right_share"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_share"
+       android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <LinearLayout
+        android:layout_toRightOf="@+id/attention_btn_back"
+        android:layout_toLeftOf="@+id/attention_right_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        >
+        <ImageView
+            android:id="@+id/attention_head_center_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:id="@+id/attention_head_tv_titlename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dddddddd"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/attention_all_tv_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dddd"
+            android:textSize="10dp"
+
+            />
+    </LinearLayout>
+    
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <ImageView
+            android:id="@+id/attention_center_iv_share"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/focus_btn_normal"
+          android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+           android:gravity="center"
+            android:layout_below="@+id/attention_center_iv_share"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+          android:orientation="horizontal"
+            >
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="40dp"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:id="@+id/attention_tv_important"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="dddd"
+
+                  />
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+            android:text="关注的人"
+                  />
+
+          </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/attention_tv_fans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="dddd"
+
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+             android:text="粉丝"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/attention_tv_praise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="dddd"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+          android:text="赞过的"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#0000"
+
+    >
+<TextView
+    android:id="@+id/attention_tv_album"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="ddd"
+    android:layout_marginTop="12dp"
+    android:layout_marginLeft="10dp"
+    />
+
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/attention_item_iv_left"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/ic_launcher"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/attention_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="dddd"
+                android:textSize="12sp"
+                android:singleLine="true"
+                />
+            <TextView
+                android:id="@+id/attention_item_context"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="dddd"
+                android:textSize="10sp"
+                android:singleLine="true"
+                android:layout_marginLeft="5dp"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/arrow_right"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="查看全部专辑"
+                android:gravity="center"
+
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/arrow_right"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+          <TextView
+              android:id="@+id/attention_tv_tracks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+              android:layout_marginTop="17dp"
+              android:layout_marginLeft="10dp"
+            />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

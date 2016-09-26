@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:id="@+id/album_ll"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        >
+        <ImageButton
+            android:id="@+id/album_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector_back"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="专辑详情"
+            android:textSize="18sp"
+            android:textColor="#000"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_down"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEECE9"
+        />
+
+    <com.lanou.radiostation.view.PullToRefreshView
+        android:layout_below="@+id/album_ll"
+        android:id="@+id/album_pull"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/album_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            ></ListView>
+    </com.lanou.radiostation.view.PullToRefreshView>
+
+    <com.lanou.radiostation.view.CircularImage
+
+        android:id="@+id/album_bottom_iv"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        />
+<ImageView
+    android:id="@+id/album_bottom_play_iv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:src="@mipmap/play_icon_pause"
+    />
+
+
+</RelativeLayout>

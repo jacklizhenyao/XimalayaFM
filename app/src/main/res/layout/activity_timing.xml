@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <LinearLayout
+        android:layout_above="@+id/timing_btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="不开启"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="倒计时 06:04"
+                android:layout_toLeftOf="@+id/timing_cb01"
+                android:layout_centerVertical="true"
+                android:textColor="#fc5832"
+                android:layout_marginRight="7dp"
+                android:visibility="gone"
+                />
+
+            <CheckBox
+                android:id="@+id/timing_cb01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_timing_cb_bg"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:layout_marginRight="7dp"
+                android:checked="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="播完当前声音"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="倒计时 06:04"
+                android:layout_toLeftOf="@+id/timing_cb02"
+                android:layout_centerVertical="true"
+                android:textColor="#fc5832"
+                android:layout_marginRight="7dp"
+                android:visibility="gone"
+                />
+
+            <CheckBox
+                android:id="@+id/timing_cb02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_timing_cb_bg"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:layout_marginRight="7dp"
+
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="10分钟"
+                android:textColor="#000"
+                android:layout_marginLeft="7dp"
+                />
+            <TextView
+                android:id="@+id/timing_time_cb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="倒计时 06:04"
+                android:layout_toLeftOf="@+id/timing_cb03"
+                android:layout_centerVertical="true"
+                android:textColor="#fc5832"
+                android:layout_marginRight="7dp"
+                android:visibility="gone"
+                />
+
+            <CheckBox
+                android:id="@+id/timing_cb03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_timing_cb_bg"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+
+                android:layout_marginRight="7dp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="20分钟"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:id="@+id/timing_time_cb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="倒计时 06:04"
+                android:layout_toLeftOf="@+id/timing_cb04"
+                android:layout_centerVertical="true"
+                android:textColor="#fc5832"
+                android:layout_marginRight="7dp"
+                android:visibility="gone"
+                />
+
+            <CheckBox
+                android:id="@+id/timing_cb04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_timing_cb_bg"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:layout_marginRight="7dp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/timing_time_cb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="30分钟"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="倒计时 06:04"
+                android:layout_toLeftOf="@+id/timing_cb05"
+                android:layout_centerVertical="true"
+                android:textColor="#fc5832"
+                android:layout_marginRight="7dp"
+                android:visibility="gone"
+                />
+
+            <CheckBox
+                android:id="@+id/timing_cb05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_timing_cb_bg"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:layout_marginRight="7dp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/timing_time_cb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="60分钟"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="倒计时 06:04"
+                android:layout_toLeftOf="@+id/timing_cb06"
+                android:layout_centerVertical="true"
+                android:textColor="#fc5832"
+                android:layout_marginRight="7dp"
+                android:visibility="gone"
+                />
+
+            <CheckBox
+                android:id="@+id/timing_cb06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_timing_cb_bg"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:layout_marginRight="7dp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="90分钟"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:id="@+id/timing_time_cb7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="倒计时 06:04"
+                android:layout_toLeftOf="@+id/timing_cb07"
+                android:layout_centerVertical="true"
+                android:textColor="#fc5832"
+                android:layout_marginRight="7dp"
+                android:visibility="gone"
+                />
+
+            <CheckBox
+                android:id="@+id/timing_cb07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_timing_cb_bg"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:layout_marginRight="7dp"
+                />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_above="@+id/timing_btn_close"
+        android:id="@+id/timing_view_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#ccc"
+        >
+
+    </View>
+
+    <Button
+        android:id="@+id/timing_btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:layout_above="@+id/timing_view_bottom"
+        android:text="关闭"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+    <View
+        android:id="@+id/timing_view_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

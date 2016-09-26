@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_welcome"
+    >
+    <ImageView
+        android:id="@+id/welcome_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <Button
+        android:id="@+id/welcome_btn"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:text="跳过"
+        android:background="#0c807e7e"
+        android:visibility="gone"
+        android:textColor="#fff"
+        />
+
+</RelativeLayout>

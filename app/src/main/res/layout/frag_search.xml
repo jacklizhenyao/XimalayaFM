@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal"
+        android:id="@+id/search_ll_01"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:id="@+id/search_iv_01"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:id="@+id/search_tv_content_01"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="爱上单身妈妈"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/search_tv_title_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="有声书"
+            android:layout_marginRight="15dp"
+            android:textSize="13sp"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal"
+        android:id="@+id/search_ll_02"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:id="@+id/search_iv_02"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:id="@+id/search_tv_content_02"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="爱上单身妈妈"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/search_tv_title_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="有声书"
+            android:layout_marginRight="15dp"
+            android:textSize="13sp"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/fragment_search_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

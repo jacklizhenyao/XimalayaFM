@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/item_frag_dingyueting_history_ll"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_frag_dingyueting_history"
+    android:orientation="horizontal"
+    android:minHeight="0dp"
+   >
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="70dp">
+        <ImageView
+            android:id="@+id/item_frag_dingyueting_history_imageview_album"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@mipmap/bg_album_cover"
+            />
+        <ImageView
+            android:id="@+id/item_frag_dingyueting_history_imageview_album_background"
+            android:layout_width="59dp"
+            android:layout_height="58dp"
+            android:layout_centerInParent="true"
+
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/item_frag_dingyueting_history_iv_radio"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/icon_history_radio"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:id="@+id/item_frag_dingyueting_history_textview_album_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="25dp"
+                        android:textSize="16sp"
+                        android:text="郭德纲 于谦 相声专辑（dsadsad高..."
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/item_frag_dingyueting_history_textview_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center"
+                    android:textSize="12sp"
+                    android:textColor="#C3C3C3"
+                    android:text="0002.《卖面茶》 郭德纲，于谦"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            >
+            <TextView
+                android:id="@+id/item_frag_dingyueting_history_textview_last_playtime"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:textSize="10sp"
+                android:textColor="#C3C3C3"
+                android:text="上次播放至： 00分19秒"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#C3C3C3"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+    <include layout="@layout/include_view"/>
+    <include layout="@layout/include_recommend"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/fragment_recommend_item_left_iv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher"
+                />
+            <TextView
+                android:id="@+id/fragment_recommend_item_left_tv"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="xxxxx"
+                android:layout_marginLeft="15dp"
+                android:lines="2"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/fragment_recommend_item_center_iv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher"
+                />
+            <TextView
+                android:id="@+id/fragment_recommend_item_center_tv"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="xxxxx"
+                android:layout_marginLeft="15dp"
+                android:lines="2"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/fragment_recommend_item_right_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher"
+                />
+            <TextView
+                android:id="@+id/fragment_recommend_item_right_tv"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="xxxxx"
+                android:layout_marginLeft="15dp"
+                android:lines="2"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

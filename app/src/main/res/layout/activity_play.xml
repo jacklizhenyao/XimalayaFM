@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8B8386"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <ImageButton
+        android:layout_margin="5dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/ic_arrow_down"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/play_tv_bigtitle"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/alarm_clock_pressed"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        />
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:background="@mipmap/live_player_mask"
+            />
+        <TextView
+            android:id="@+id/play_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dddd"
+           android:layout_centerInParent="true"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/play_player_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ddd"
+          android:layout_marginLeft="160dp"
+            android:layout_marginTop="190dp"
+            />
+        <TextView
+            android:id="@+id/play_time_tv_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fff"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="210dp"
+            />
+        <TextView
+            android:id="@+id/play_time_tv_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ffff"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="210dp"
+            />
+    </RelativeLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="86dp">
+
+<LinearLayout
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="60dp"
+    android:layout_height="60dp">
+<ImageView
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:background="@mipmap/ic_playlist_normal"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="节目单"
+        android:layout_marginLeft="10dp"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        >
+      <ImageButton
+          android:layout_width="0dp"
+          android:layout_height="60dp"
+          android:layout_weight="1"
+android:background="@mipmap/notify_btn_light_prev_normal"
+        />
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@mipmap/fm_play"
+            android:button="@null"
+            />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@mipmap/next_icon_transparent_pressed"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/play_history_normal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放历史"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/play_pb"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <ImageView
+            android:id="@+id/play_radioCoverSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/play_rname"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="ddd"
+                android:textColor="#000"
+            
+                />
+            <TextView
+                android:id="@+id/play_programName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:text="ffffff"
+                />
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/play_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dddd"
+          android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>

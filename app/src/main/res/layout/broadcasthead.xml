@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+
+    >
+    <RelativeLayout
+        android:id="@+id/broad_include_local_rl"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+ android:layout_marginLeft="20dp"
+        >
+        <ImageButton
+            android:id="@+id/broad_iblocal_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:background="@mipmap/icon_radio_local"
+            />
+        <TextView
+            android:layout_below="@+id/broad_iblocal_head"
+            android:id="@+id/broad_tvlocal_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本地台"
+            android:textSize="18sp"
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/broad_include_country_rl"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+
+        >
+        <ImageButton
+            android:id="@+id/broad_ibcountry_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    android:background="@mipmap/icon_radio_country"
+            />
+        <TextView
+            android:layout_below="@+id/broad_ibcountry_head"
+            android:id="@+id/broad_tvcountry_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="国家台"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/broad_include_city_rl"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+
+        >
+        <ImageButton
+            android:id="@+id/broad_ibcity_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:background="@mipmap/icon_radio_province"
+            />
+        <TextView
+            android:layout_below="@+id/broad_ibcity_head"
+            android:id="@+id/broad_tvcity_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="省市台"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/broad_include_net_rl"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+
+        >
+        <ImageButton
+            android:id="@+id/broad_ibnet_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:background="@mipmap/icon_radio_internet"
+            />
+        <TextView
+            android:layout_below="@+id/broad_ibnet_head"
+            android:id="@+id/broad_tvnet_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网络台"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="新闻台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="音乐台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="交通台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="经济台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="体育台"
+
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="文艺台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="曲艺台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <ImageView
+                android:id="@+id/broad_head_iv_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@mipmap/ic_triangle_down"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/broad_head_gone"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+      android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="新闻台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="音乐台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="交通台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="经济台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="体育台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="文艺台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="曲艺台"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <ImageView
+                android:id="@+id/broad_head_iv_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+              android:background="@mipmap/ic_arraw_up_orange"
+                android:textSize="18sp"
+                android:gravity="center"
+
+                android:layout_marginTop="20dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

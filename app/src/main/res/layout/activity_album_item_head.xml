@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:background="#fff"
+    >
+
+    <ImageView
+        android:id="@+id/item_frag_dingyueting_recom_imageview_album"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@mipmap/bg_album_cover"
+        android:layout_margin="17dp"
+        />
+    <ImageView
+        android:id="@+id/album_item_head_iv"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="20dp"
+        />
+    <LinearLayout
+        android:id="@+id/album_item_head_ll"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/album_item_head_iv"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/album_item_head_bottom_ll"
+        >
+        <TextView
+            android:id="@+id/album_item_head_titlename"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="顾盼生欢"
+            android:textColor="#000"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="主播 : "
+                android:textColor="#ccc"
+                android:textSize="10sp"
+                />
+            <TextView
+                android:id="@+id/album_item_head_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="哈哈"
+                android:textColor="#89B7EC"
+                android:textSize="10sp"
+                android:layout_marginRight="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="播放 : "
+                android:textColor="#ccc"
+                android:textSize="10sp"
+                />
+            <TextView
+                android:id="@+id/album_item_head_playscounts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="593.1万次"
+                android:textSize="10sp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ccc"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分类 : "
+                android:textColor="#ccc"
+                android:textSize="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="有声书"
+                android:textSize="10sp"
+                android:layout_marginRight="5dp"
+                android:textColor="#89B7EC"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/album_item_head_bottom_ll"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/album_item_head_iv"
+        android:layout_marginBottom="30dp"
+        android:padding="3dp"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#8BC34A"
+            android:layout_margin="3dp"
+            android:text="订阅专辑"
+            android:gravity="center"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/album_download_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:layout_margin="3dp"
+            android:text="批量下载"
+            android:textColor="#8BC34A"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#EEECE9"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

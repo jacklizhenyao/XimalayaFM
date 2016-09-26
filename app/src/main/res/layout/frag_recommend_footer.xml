@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#EEECE9"
+        />
+    <RelativeLayout
+        android:id="@+id/frag_recommend_footer_rl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#fff"
+        >
+        <ImageView
+            android:id="@+id/frag_recommend_footer_iv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/category_more"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="查看更多分类"
+            android:layout_toRightOf="@+id/frag_recommend_footer_iv_01"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:textColor="#afaeae"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ic_more"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#EEECE9"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/frag_recommend_footer_vp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#EEECE9"
+        />
+</LinearLayout>

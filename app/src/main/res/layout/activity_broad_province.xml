@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!--标签TabLayout需如下使用：
+在写app：时会报红，需导入 xmlns:app="http://schemas.android.com/apk/res-auto"
+tabTextColor ： TabLayout未选中标题的字体颜色
+tabSelectedTextColor：选中字体的颜色
+tabIndicatorColor ： 文字下带的滑动条颜色
+tabTextAppearance：字体设置，这里没有具体的设置字体大小的属性  需要在style中定义，然后通过tabTextAppearance来设置
+
+-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="省市台"
+        android:gravity="center"
+        android:textSize="18sp"
+        />
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="@android:color/background_dark"
+        app:tabSelectedTextColor="@android:color/holo_red_light"
+        app:tabIndicatorColor="@android:color/holo_green_light"
+        app:tabTextAppearance="@style/mySetting"
+        app:tabMode="scrollable"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

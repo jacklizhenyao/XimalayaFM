@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+
+    <ImageView
+        android:id="@+id/frag_allcallify_01_item_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_launcher"
+        >
+    </ImageView>
+    <LinearLayout
+        android:layout_toRightOf="@+id/frag_allcallify_01_item_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="13dp"
+        >
+
+        <TextView
+            android:id="@+id/frag_allcallify_01_item_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总裁的心尖宠妻"
+            android:textSize="14sp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/frag_allcallify_item_01_title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="总裁的心尖宠妻"
+            android:textSize="10sp"
+            android:maxLines="2"
+            android:textColor="#949393"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_item_playtimes_count"
+                />
+            <TextView
+                android:id="@+id/frag_allcallify_01_item_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="sss"
+                android:textSize="8dp"
+                android:textColor="#949393"
+                />
+            <TextView
+                android:id="@+id/frag_allcallify_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="评分: 5分"
+                android:textSize="8dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#949393"
+                />
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/album_collect_count"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/frag_allcallify_01_item_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="sss"
+                android:textSize="8dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#949393"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

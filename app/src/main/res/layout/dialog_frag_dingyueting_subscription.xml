@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="250dp"
+    android:layout_height="100dp"
+    android:background="@drawable/shape_frag_dingyueting_subscription_dialog">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择需要的操作"
+        android:textSize="15sp"
+        android:textColor="#F37653"
+        android:layout_marginBottom="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="#C3C3C3"
+        />
+</LinearLayout>
+    <TextView
+        android:id="@+id/dialog_frag_dingyueting_subscription_textview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+       android:text="取消订阅"
+        android:gravity="left|center"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:background="@null"/>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:background="@mipmap/no_download"
+   android:layout_gravity="center_horizontal"
+    android:layout_marginTop="100dp"
+    />
+
+    <Button
+   android:id="@+id/sound_btn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="去看看"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:background="#fff"
+        />
+</LinearLayout>
